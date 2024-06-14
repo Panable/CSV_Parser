@@ -37,8 +37,6 @@ void write_csv(CSV* csv, const char* file_name);
 char* csv_print(CSV* csv);
 void csv_dump(CSV* csv);
 
-#define CSV_PARSER_IMPLEMENTATION
-
 // IMPLEMENTATIONS
 #ifdef CSV_PARSER_IMPLEMENTATION
 
